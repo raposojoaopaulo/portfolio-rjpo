@@ -1,0 +1,64 @@
+// Box sizing padrão para todos elementos
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+// Reset básico para elementos principais
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Remove estilos padrões de listas
+ul, ol {
+  list-style: none;
+}
+
+// Links sem decoração
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Imagens responsivas por padrão
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Reset em fontes e estilos padrão de formulários
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+// Padronizar tipografia e suavização de fonte
+body {
+  font-family: 'Roboto', sans-serif; // Exemplo, ajuste conforme necessidade
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Corrigir elementos de formulário específicos
+button, input[type="submit"], input[type="button"] {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+// Reset do elemento textarea
+textarea {
+  resize: vertical;
+}
+
+// Tabelas sem espaçamento padrão
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'variables';
+@use 'mixins';
+@use 'reset';
+
+@use 'components/hero';
+
+body {
+  font-family: $font-primary;
+  color: $black;
+  background: #fff;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}

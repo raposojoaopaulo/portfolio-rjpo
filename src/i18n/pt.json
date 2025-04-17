@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "subtitle": "Desenvolvedor web full stack"
+  },
+  "menu": {
+    "about": "SOBRE MIM",
+    "portfolio": "PORTFÓLIO",
+    "contact": "CONTATO",
+    "close": "FECHAR"
+  },
+  "construction": {
+    "title": "EM CONSTRUÇÃO",
+    "message": "Estamos trabalhando para lançar algo incrível em breve.",
+    "back": "Voltar para o início"
+  }
+}

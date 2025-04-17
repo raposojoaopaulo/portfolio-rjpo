@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "subtitle": "Full stack web developer"
+  },
+  "menu": {
+    "about": "ABOUT ME",
+    "portfolio": "PORTFOLIO",
+    "contact": "CONTACT",
+    "close": "CLOSE"
+  },
+  "construction": {
+    "title": "UNDER CONSTRUCTION",
+    "message": "We're working hard to launch something amazing soon.",
+    "back": "Back to home"
+  }
+}
