@@ -29,15 +29,6 @@ const About = () => {
       <Header theme="dark" />
       <div className="about">
         <div className="about__image">
-        {/* <motion.img
-          src={profile}
-          alt="Foto de perfil de João Paulo Raposo"
-          className="about__profile-img"
-          initial={{ opacity: 0, scale: 0.8, y: 30 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 1, ease: 'easeOut', delay: 0.3 }}
-          whileHover={{ scale: 1.03 }}
-        /> */}
         <motion.img
           src={profile}
           alt="Foto de perfil de João Paulo Raposo"
@@ -46,8 +37,8 @@ const About = () => {
           animate={{
             opacity: 1,
             scale: 1,
-            y: [0, -2, 0, 2, 0], // sobe e desce em looping
-            x: [0, 1, 0, -1, 0], // leve oscilação lateral
+            y: [0, -2, 0, 2, 0],
+            x: [0, 1, 0, -1, 0],
           }}
           transition={{
             opacity: { duration: 1, ease: 'easeOut', delay: 0.3 },

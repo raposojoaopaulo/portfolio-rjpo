@@ -25,6 +25,24 @@
     }
   }
 
+  &.dark-and-light {
+    &__languages,
+    &__menu-btn {
+      color: #141414;
+    }
+    .header__languages,
+    .header__language-button {
+      @media (max-width: 768px) {
+        color: #fff;
+      }
+    }
+    .header__menu-text,
+    .header__menu-icon {
+      color: #fff;
+      filter: brightness(0) invert(1);
+    }
+  }
+
   .container {
     padding: 1rem 3.5rem;
     display: flex;
@@ -64,7 +82,7 @@
       font-size: 30px;
 
       &:hover {
-        color: $hover;
+        color: $slate;
       }
     }
   }
@@ -110,7 +128,7 @@
         color: #fff;
 
         &:hover {
-          color: $gold;
+          color: $slate;
         }
       }
     }
@@ -171,7 +189,7 @@
           }
 
           &:hover {
-            color: $gold;
+            color: $slate;
           }
         }
       }
@@ -195,7 +213,7 @@
         transition: color 0.2s;
 
         &:hover {
-          color: $gold;
+          color: $slate;
         }
       }
     }

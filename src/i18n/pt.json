@@ -56,5 +56,27 @@
         "description": "Prestação de serviços técnicos em informática e redes, incluindo manutenção, montagem de equipamentos e suporte ao cliente."
       }
     }
+  },
+  "contact": {
+    "title": "Contato",
+    "text": "Tem uma ideia em mente? Me conta e vamos transformar seu projeto em realidade! Use o formulário abaixo ou envie um e-mail direto para: contato@raposojoaopaulo.com",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "placeholder-name": "Seu nome completo",
+    "placeholder-email": "email@email.com",
+    "placeholder-phone": "(xx) x xxxx-xxxx",
+    "placeholder-message": "Escreva aqui a sua mensagem",
+    "send": "Enviar",
+    "text2": "Se for mais prático para você, sinta-se à vontade para me contatar por uma das redes sociais abaixo.",
+    "errors": {
+      "name": "O campo Nome é obrigatório.",
+      "email": "O campo Email é obrigatório.",
+      "email-invalid": "O campo Email deve ser um endereço de e-mail válido.",
+      "phone": "O campo Telefone é obrigatório.",
+      "phone-invalid": "O campo Telefone deve ser um número de telefone válido.",
+      "message": "O campo Mensagem é obrigatório."
+    }
   }
 }

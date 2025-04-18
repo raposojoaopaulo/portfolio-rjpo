@@ -56,5 +56,27 @@
         "description": "Provided technical services in IT and networking, including maintenance, assembly of equipment, and customer support."
       }
     }
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Do you have an idea in mind? Tell me and we will turn your project into reality! Use the form below or send an email directly to: contato@raposojoaopaulo.com",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "placeholder-name": "Your full name",
+    "placeholder-email": "email@email.com",
+    "placeholder-phone": "(xx) xxxxx-xxxx",
+    "placeholder-message": "Write your message here",
+    "send": "Send",
+    "text2": "If it's more convenient for you, feel free to reach out via one of the social networks below.",
+    "errors": {
+      "name": "Please enter your name",
+      "email": "Please enter your email address",
+      "email-invalid": "Please enter a valid email address",
+      "phone": "Please enter your phone number",
+      "phone-invalid": "Please enter a valid phone number",
+      "message": "Please enter your message"
+    }
   }
 }
