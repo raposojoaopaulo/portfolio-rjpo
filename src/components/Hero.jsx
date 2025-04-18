@@ -3,6 +3,8 @@ import logo from '../assets/hero/logo.svg';
 import logoMob from '../assets/hero/logo-mob.svg';
 import '../styles/components/_hero.scss';
 import { useTranslation } from 'react-i18next';
+import { TypeAnimation } from 'react-type-animation';
+
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -16,7 +18,16 @@ export default function Hero() {
           <img src={logo} alt="João Paulo Raposo" className="hero__content-logo" />
         </picture>
         <h1 className='hero__content-title'>JPRO Web Solutions</h1>
-        <h2 className='hero__footer-typing' data-text="{t('hero.subtitle')}">{t('hero.subtitle')}</h2>
+        <TypeAnimation
+          sequence={[
+            t('hero.subtitle'), 
+            1000,               
+          ]}
+          wrapper="h2"
+          className="hero__content-subtitle"
+          cursor={true}
+          speed={60}
+        />
       </div>
     </section>
   );

@@ -12,25 +12,25 @@
   font-family: 'Bebas Neue', sans-serif;
   padding: 2rem;
   transition: all 0.3s ease;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease forwards;
+  }
 }
 
 .logo {
   width: 150px;
   margin-bottom: 2rem;
   animation: fadeInUp 0.6s ease forwards;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-  animation: fadeInUp 0.8s ease forwards;
-}
-
-p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  animation: fadeInUp 1s ease forwards;
 }
 
 .social-icons {

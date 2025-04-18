@@ -5,7 +5,7 @@ import closeIcon from '../assets/header/menu_icon_close.svg';
 import { FaInstagram, FaGithub, FaLinkedinIn, FaBehance } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
-export default function Header() {
+export default function Header({ theme = 'light' }) {
   const [isOpen, setIsOpen] = useState(false);
   const { i18n, t } = useTranslation();
   
@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`header ${isOpen ? 'open' : ''}`}>
+       <header className={`header ${theme} ${isOpen ? 'open' : ''}`}>
         <div className="container">
           <div className="header__languages">
             <button className="header__language-button" onClick={() => changeLanguage('pt')}>
@@ -51,10 +51,10 @@ export default function Header() {
         </div>
       </header>
 
-      <div className={`header__overlay ${isOpen ? 'open' : ''}`}>
+      <div className={`header__overlay ${isOpen ? 'open' : ''} ${theme}`}>
         <nav className="header__nav">
           <ul>
-            <li><a href="/em-construcao" onClick={toggleMenu}>{t('menu.about')}</a></li>
+            <li><a href="/sobre-mim" onClick={toggleMenu}>{t('menu.about')}</a></li>
             <li><a href="/em-construcao" onClick={toggleMenu}>{t('menu.portfolio')}</a></li>
             <li><a href="/em-construcao" onClick={toggleMenu}>{t('menu.contact')}</a></li>
           </ul>

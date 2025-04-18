@@ -1,15 +1,60 @@
 @use 'reset';
 @use 'variables';
 @use 'mixins';
-@use 'reset';
 
 @use 'components/hero';
 
 body {
-  font-family: $font-primary;
-  color: $black;
+  font-family: 'Roboto', sans-serif;
+  color: #141414;
   background: #fff;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+  &.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.back-button {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+  &__btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #cecece;
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    transition: 
+      color 0.3s ease, 
+      border-color 0.3s ease, 
+      background-color 0.3s ease,
+      transform 0.3s ease;
+    letter-spacing: 1px;
+    margin-top: 4rem;
+  
+    &:hover {
+      color: #141414;
+      background-color: #fff;
+      border-color: #cecece;
+      transform: scale(1.03);
+    }
+  }
 }

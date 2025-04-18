@@ -12,5 +12,49 @@
     "title": "EM CONSTRUÇÃO",
     "message": "Estamos trabalhando para lançar algo incrível em breve.",
     "back": "Voltar para o início"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ops! Essa página não foi encontrada.<br />Mas calma... ainda tem muita coisa boa te esperando.",
+    "back": "Voltar para o início"
+  },
+  "about": {
+    "page-title": "Sobre mim",
+    "description": "Sou desenvolvedor full stack com foco em Laravel e Ruby on Rails, gosto de resolver problemas reais com soluções bem estruturadas. Tenho uma abordagem sistêmica e prática: gosto de entender o funcionamento completo das coisas antes de construir. Isso me permite criar aplicações mais estáveis, com código claro, funcional e pensado para durar.",
+    "description-2": "Acredito que o desenvolvimento de software é uma arte, e como tal, deve ser feita com paixão e dedicação. Em todos os projetos, busco unir clareza técnica com uma visão de produto, entendendo as necessidades do cliente e do usuário final. Gosto de pensar além do código — no fluxo, na experiência e no impacto daquilo que estou construindo.",
+    "page-subtitle": "Stacks & tecnologias",
+    "page-subtitle2": "Experiências profissionais",
+    "experiences": {
+      "exp1": {
+        "year": "2023 - Presente",
+        "role": "Dev Full Stack / Webdesigner",
+        "company": "Rede Magic",
+        "description": "Manutenção, atualização e desenvolvimento de sites institucionais, com foco em performance, estabilidade e melhorias contínuas."
+      },
+      "exp2": {
+        "year": "2022 - 2023",
+        "role": "Dev Full Stack",
+        "company": "VOPI",
+        "description": "Desenvolvimento de sistema de planos e assinaturas com Laravel, incluindo integração com meios de pagamento e automações por e-mail."
+      },
+      "exp3": {
+        "year": "2021 - 2022",
+        "role": "Dev Full Stack",
+        "company": "NT4 Networks",
+        "description": "Desenvolvimento de um sistema para clínicas com Ruby on Rails e React, envolvendo arquitetura de software e testes automatizados."
+      },
+      "exp4": {
+        "year": "2019 - 2021",
+        "role": "Designer Gráfico",
+        "company": "Placa Mídia",
+        "description": "Criação de materiais gráficos e vídeos para comunicação visual, identidade visual de marcas e supervisão de produção e instalação."
+      },
+      "exp5": {
+        "year": "2008 - 2019",
+        "role": "Técnico de Informatica",
+        "company": "Micro Empreendedor",
+        "description": "Prestação de serviços técnicos em informática e redes, incluindo manutenção, montagem de equipamentos e suporte ao cliente."
+      }
+    }
   }
 }

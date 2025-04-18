@@ -12,5 +12,49 @@
     "title": "UNDER CONSTRUCTION",
     "message": "We're working hard to launch something amazing soon.",
     "back": "Back to home"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! This page was not found.<br />But don't worry... there's still a lot of good stuff waiting for you.",
+    "back": "Back to home"
+  },
+  "about": {
+    "page-title": "About me",
+    "description": "I'm a full stack developer focused on Laravel and Ruby on Rails, driven by solving real-world problems through well-structured solutions. My approach is both systemic and practical — I like to understand how things work before building anything. That mindset helps me deliver stable, maintainable code that makes sense from both a technical and business perspective.",
+    "description-2": "I believe that software development is an art, and like any art, it should be done with passion and dedication. In every project, I strive to combine technical clarity with a product-oriented vision, understanding the needs of both the client and the end user. I like to think beyond the code — considering the flow, experience, and impact of what I'm building.",
+    "page-subtitle": "Stacks & technologies",
+    "page-subtitle2": "Professional experiences",
+    "experiences": {
+      "exp1": {
+        "year": "2023 - Present",
+        "role": "Full Stack Dev / Web Designer",
+        "company": "Rede Magic",
+        "description": "Maintenance, updates, and development of institutional websites, focusing on performance, stability, and continuous improvements."
+      },
+      "exp2": {
+        "year": "2022 - 2023",
+        "role": "Full Stack Dev",
+        "company": "VOPI",
+        "description": "Development of a subscription and plan system using Laravel, including payment gateway integration and email automation."
+      },
+      "exp3": {
+        "year": "2021 - 2022",
+        "role": "Full Stack Dev",
+        "company": "NT4 Networks",
+        "description": "Development of a clinic management system using Ruby on Rails and React, involving software architecture and automated testing."
+      },
+      "exp4": {
+        "year": "2019 - 2021",
+        "role": "Graphic Designer",
+        "company": "Placa Mídia",
+        "description": "Creation of graphic materials and videos for visual communication, brand identity, and supervision of production and installation."
+      },
+      "exp5": {
+        "year": "2008 - 2019",
+        "role": "IT Technician",
+        "company": "Micro Entrepreneur",
+        "description": "Provided technical services in IT and networking, including maintenance, assembly of equipment, and customer support."
+      }
+    }
   }
 }

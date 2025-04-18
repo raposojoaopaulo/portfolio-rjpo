@@ -46,6 +46,7 @@
       position: relative;
       z-index: 2;
       transition: transform 0.3s ease-in-out;
+      animation: fadeInUp 1s ease forwards;
   
       &:hover {
         transform: scale(1.01);
@@ -54,6 +55,24 @@
 
     &-title {
       display: none;
+    }
+
+    &-subtitle {
+      position: absolute;
+      bottom: 2rem;
+      left: calc(50% - 16.5ch);
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2rem;
+      color: $black;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+        bottom: 5rem;
+      }
     }
 
     .hero__footer-typing {
@@ -104,6 +123,17 @@
       }
       50%, 100% {
         opacity: 0;
+      }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
 
