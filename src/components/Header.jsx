@@ -55,7 +55,7 @@ export default function Header({ theme = 'light' }) {
         <nav className="header__nav">
           <ul>
             <li><a href="/sobre-mim" onClick={toggleMenu}>{t('menu.about')}</a></li>
-            <li><a href="/em-construcao" onClick={toggleMenu}>{t('menu.portfolio')}</a></li>
+            <li><a href="/portfolio" onClick={toggleMenu}>{t('menu.portfolio')}</a></li>
             <li><a href="/contato" onClick={toggleMenu}>{t('menu.contact')}</a></li>
           </ul>
         </nav>

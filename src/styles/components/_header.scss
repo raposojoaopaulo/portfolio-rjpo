@@ -43,6 +43,21 @@
     }
   }
 
+  &.light-and-dark {
+    .header__languages,
+    .header__language-button {
+      color: #fff;
+
+      &:hover {
+        color: $slate;
+      }
+
+      @media (max-width: 768px) {
+        color: #141414;
+      }
+    }
+  }
+
   .container {
     padding: 1rem 3.5rem;
     display: flex;
