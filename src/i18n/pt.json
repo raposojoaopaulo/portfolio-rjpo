@@ -11,23 +11,23 @@
   "construction": {
     "title": "EM CONSTRUÇÃO",
     "message": "Estamos trabalhando para lançar algo incrível em breve.",
-    "back": "Voltar para o início"
+    "back": "Voltar para a Home"
   },
   "notFound": {
     "title": "404",
     "message": "Ops! Essa página não foi encontrada.<br />Mas calma... ainda tem muita coisa boa te esperando.",
-    "back": "Voltar para o início"
+    "back": "Voltar para a Home"
   },
   "about": {
     "page-title": "Sobre mim",
-    "description": "Sou desenvolvedor full stack com foco em Laravel e Ruby on Rails, gosto de resolver problemas reais com soluções bem estruturadas. Tenho uma abordagem sistêmica e prática: gosto de entender o funcionamento completo das coisas antes de construir. Isso me permite criar aplicações mais estáveis, com código claro, funcional e pensado para durar.",
-    "description-2": "Acredito que o desenvolvimento de software é uma arte, e como tal, deve ser feita com paixão e dedicação. Em todos os projetos, busco unir clareza técnica com uma visão de produto, entendendo as necessidades do cliente e do usuário final. Gosto de pensar além do código — no fluxo, na experiência e no impacto daquilo que estou construindo.",
+    "description": "Sou desenvolvedor full stack com foco em Laravel e Ruby on Rails. Gosto de resolver problemas reais com soluções bem estruturadas. Tenho uma abordagem sistêmica e prática: gosto de entender o funcionamento completo das coisas antes de construir. Isso me permite criar aplicações mais estáveis, com código claro, funcional e pensado para durar.",
+    "description-2": "Acredito que o desenvolvimento de software é uma arte e, como tal, deve ser feito com paixão e dedicação. Em todos os projetos, busco unir clareza técnica com uma visão de produto, entendendo as necessidades do cliente e do usuário final. Gosto de pensar além do código — no fluxo, na experiência e no impacto daquilo que estou construindo.",
     "page-subtitle": "Stacks & tecnologias",
     "page-subtitle2": "Experiências profissionais",
     "experiences": {
       "exp1": {
         "year": "2023 - Presente",
-        "role": "Dev Full Stack / Webdesigner",
+        "role": "Dev Full Stack / Web Designer",
         "company": "Rede Magic",
         "description": "Manutenção, atualização e desenvolvimento de sites institucionais, com foco em performance, estabilidade e melhorias contínuas."
       },
@@ -41,7 +41,7 @@
         "year": "2021 - 2022",
         "role": "Dev Full Stack",
         "company": "NT4 Networks",
-        "description": "Desenvolvimento de um sistema para clínicas com Ruby on Rails e React, envolvendo arquitetura de software e testes automatizados."
+        "description": "Desenvolvimento de sistema para clínicas com Ruby on Rails e React, envolvendo arquitetura de software e testes automatizados."
       },
       "exp4": {
         "year": "2019 - 2021",
@@ -51,9 +51,118 @@
       },
       "exp5": {
         "year": "2008 - 2019",
-        "role": "Técnico de Informatica",
-        "company": "Micro Empreendedor",
+        "role": "Técnico de Informática",
+        "company": "Microempreendedor",
         "description": "Prestação de serviços técnicos em informática e redes, incluindo manutenção, montagem de equipamentos e suporte ao cliente."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "text": "Tem uma ideia em mente? Me conte e vamos transformar seu projeto em realidade! Use o formulário abaixo ou envie um e-mail direto para: contato@raposojoaopaulo.com",
+    "name": "Nome",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "placeholder-name": "Seu nome completo",
+    "placeholder-email": "email@email.com",
+    "placeholder-phone": "(xx) x xxxx-xxxx",
+    "placeholder-message": "Escreva aqui a sua mensagem",
+    "send": "Enviar",
+    "text2": "Se for mais prático para você, sinta-se à vontade para me contatar por uma das redes sociais abaixo.",
+    "errors": {
+      "name": "O campo Nome é obrigatório.",
+      "email": "O campo E-mail é obrigatório.",
+      "email-invalid": "O campo E-mail deve ser um endereço de e-mail válido.",
+      "phone": "O campo Telefone é obrigatório.",
+      "phone-invalid": "O campo Telefone deve ser um número de telefone válido.",
+      "message": "O campo Mensagem é obrigatório."
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "text": "Acredito que design e código devem caminhar juntos para contar histórias. Neste portfólio, compartilho projetos que unem intuição, experiência e intenção — sempre com foco no que importa de verdade: <span>o impacto</span>.",
+    "subtitle1": "<span>Código</span> & Design",
+    "subtitle2": "Código & <span>Design</span>",
+    "buttonCases": "Conheça",
+    "code": {
+      "case1": {
+        "title": "Landing Page Otohear - Laravel",
+        "description": "Desenvolvimento de landing page para o projeto Otohear, utilizando Laravel."
+      },
+      "case2": {
+        "title": "VOPI - Laravel",
+        "description": "Desenvolvimento de um sistema de cobrança de planos para aplicação web do projeto VOPI, utilizando Laravel."
+      },
+      "case3": {
+        "title": "Otohear - React",
+        "description": "Desenvolvimento de website para a clínica Otohear, utilizando React."
+      },
+      "case4": {
+        "title": "Sistema Jurídico - Ruby on Rails",
+        "description": "Desenvolvimento de um sistema jurídico para controle de processos, utilizando Ruby on Rails."
+      },
+      "case5": {
+        "title": "Landing Page A Favorita - Laravel",
+        "description": "Criação de landing page para loja A Favorita, utilizando Laravel."
+      },
+      "case6": {
+        "title": "Pokedash - Vue",
+        "description": "Desafio técnico de front-end para consumo de API, utilizando Vue."
+      }
+    },
+    "branding": {
+      "case1": {
+        "title": "Otohear - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para a clínica Otohear, incluindo logotipo, paleta de cores e tipografia."
+      },
+      "case2": {
+        "title": "WRD - Desenvolvimento de Logotipo",
+        "description": "Desenvolvimento de logotipo para a WRD. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case3": {
+        "title": "Bricoffee - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de marca e identidade visual completa. Extensa pesquisa de mercado para entender o conceito e expressar a essência do produto."
+      },
+      "case4": {
+        "title": "Verde Oliva - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de marca e conceito para a Verde Oliva. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case5": {
+        "title": "Optsun - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de marca e conceito para a Optsun. Extensa pesquisa de mercado e conceitual para entender o produto e expressar a essência da marca."
+      },
+      "case6": {
+        "title": "Willian do Carmo - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para o personal trainer Willian do Carmo. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case7": {
+        "title": "Convicção Moda Infantil - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para a Convicção Moda Infantil. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case8": {
+        "title": "Santropez - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para a Santropez. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case9": {
+        "title": "Carlos Eduardo Nutricionista - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para o nutricionista Carlos Eduardo. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case10": {
+        "title": "Divinas - Rebranding",
+        "description": "Rebranding da marca Divinas. O projeto envolveu pesquisa de mercado e criação de nova identidade visual."
+      },
+      "case11": {
+        "title": "Eduardo Sturmer Personal - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para o personal trainer Eduardo Sturmer. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case12": {
+        "title": "LCF Consultoria - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de identidade visual para a LCF Consultoria. O projeto envolveu pesquisa de mercado e criação de identidade visual."
+      },
+      "case13": {
+        "title": "Mercosul Energia Solar - Rebranding",
+        "description": "Rebranding da marca Mercosul Energia Solar. O projeto envolveu pesquisa de mercado e criação de nova identidade visual."
       }
     }
   }

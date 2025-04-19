@@ -10,7 +10,7 @@ const UnderConstruction = () => {
   
   return (
     <>
-      <Header />
+      <Header theme="light" />
       <div className="under-construction">
         <img src={logo} alt="Joao Paulo Raposo Logo" className="logo" />
 

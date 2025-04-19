@@ -1,5 +1,5 @@
 @use 'reset';
-@use 'variables';
+@use 'variables' as *;
 @use 'mixins';
 
 @use 'components/hero';
@@ -28,6 +28,15 @@ body {
   }
 }
 
+.page-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10vh;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
 .back-button {
   width: 100%;
   display: flex;
@@ -53,7 +62,7 @@ body {
     &:hover {
       color: #141414;
       background-color: #fff;
-      border-color: #cecece;
+      border-color: $slate;
       transform: scale(1.03);
     }
   }

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "subtitle": "Full stack web developer"
+    "subtitle": "Full Stack Web Developer"
   },
   "menu": {
     "about": "ABOUT ME",
@@ -10,36 +10,36 @@
   },
   "construction": {
     "title": "UNDER CONSTRUCTION",
-    "message": "We're working hard to launch something amazing soon.",
-    "back": "Back to home"
+    "message": "We are working on launching something amazing soon.",
+    "back": "Back to Home"
   },
   "notFound": {
     "title": "404",
-    "message": "Oops! This page was not found.<br />But don't worry... there's still a lot of good stuff waiting for you.",
-    "back": "Back to home"
+    "message": "Oops! This page was not found.<br />But don’t worry... there's still a lot of great stuff waiting for you.",
+    "back": "Back to Home"
   },
   "about": {
-    "page-title": "About me",
-    "description": "I'm a full stack developer focused on Laravel and Ruby on Rails, driven by solving real-world problems through well-structured solutions. My approach is both systemic and practical — I like to understand how things work before building anything. That mindset helps me deliver stable, maintainable code that makes sense from both a technical and business perspective.",
-    "description-2": "I believe that software development is an art, and like any art, it should be done with passion and dedication. In every project, I strive to combine technical clarity with a product-oriented vision, understanding the needs of both the client and the end user. I like to think beyond the code — considering the flow, experience, and impact of what I'm building.",
-    "page-subtitle": "Stacks & technologies",
-    "page-subtitle2": "Professional experiences",
+    "page-title": "About Me",
+    "description": "I'm a full stack developer focused on Laravel and Ruby on Rails. I enjoy solving real-world problems with well-structured solutions. My approach is both systemic and pragmatic: I like to understand how things work as a whole before building. This allows me to create more stable applications with clear, functional, and future-proof code.",
+    "description-2": "I believe software development is an art — and as such, it should be done with passion and dedication. In every project, I strive to combine technical clarity with a product mindset, understanding the needs of both the client and the end user. I like to think beyond the code — about the flow, the experience, and the impact of what I'm building.",
+    "page-subtitle": "Stacks & Technologies",
+    "page-subtitle2": "Professional Experience",
     "experiences": {
       "exp1": {
         "year": "2023 - Present",
-        "role": "Full Stack Dev / Web Designer",
+        "role": "Full Stack Developer / Web Designer",
         "company": "Rede Magic",
-        "description": "Maintenance, updates, and development of institutional websites, focusing on performance, stability, and continuous improvements."
+        "description": "Maintenance, updates, and development of institutional websites focused on performance, stability, and continuous improvement."
       },
       "exp2": {
         "year": "2022 - 2023",
-        "role": "Full Stack Dev",
+        "role": "Full Stack Developer",
         "company": "VOPI",
-        "description": "Development of a subscription and plan system using Laravel, including payment gateway integration and email automation."
+        "description": "Development of a subscription and billing system using Laravel, including payment gateway integration and email automation."
       },
       "exp3": {
         "year": "2021 - 2022",
-        "role": "Full Stack Dev",
+        "role": "Full Stack Developer",
         "company": "NT4 Networks",
         "description": "Development of a clinic management system using Ruby on Rails and React, involving software architecture and automated testing."
       },
@@ -47,13 +47,122 @@
         "year": "2019 - 2021",
         "role": "Graphic Designer",
         "company": "Placa Mídia",
-        "description": "Creation of graphic materials and videos for visual communication, brand identity, and supervision of production and installation."
+        "description": "Creation of graphic materials and videos for visual communication, brand identity design, and supervision of production and installation."
       },
       "exp5": {
         "year": "2008 - 2019",
         "role": "IT Technician",
-        "company": "Micro Entrepreneur",
-        "description": "Provided technical services in IT and networking, including maintenance, assembly of equipment, and customer support."
+        "company": "Freelancer",
+        "description": "Technical IT and network services, including maintenance, equipment assembly, and customer support."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Have an idea in mind? Let’s bring your project to life! Use the form below or send a direct email to: contato@raposojoaopaulo.com",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "placeholder-name": "Your full name",
+    "placeholder-email": "email@email.com",
+    "placeholder-phone": "(xx) x xxxx-xxxx",
+    "placeholder-message": "Write your message here",
+    "send": "Send",
+    "text2": "If it's more convenient for you, feel free to reach out to me through one of the social media platforms below.",
+    "errors": {
+      "name": "The Name field is required.",
+      "email": "The Email field is required.",
+      "email-invalid": "The Email field must be a valid email address.",
+      "phone": "The Phone field is required.",
+      "phone-invalid": "The Phone field must be a valid phone number.",
+      "message": "The Message field is required."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "text": "I believe design and code should walk together to tell meaningful stories. In this portfolio, I share projects that unite intuition, experience, and intention — always focused on what truly matters: <span>impact</span>.",
+    "subtitle1": "<span>Code</span> & Design",
+    "subtitle2": "Code & <span>Design</span>",
+    "buttonCases": "Explore",
+    "code": {
+      "case1": {
+        "title": "Otohear Landing Page - Laravel",
+        "description": "Development of a landing page for the Otohear project using Laravel."
+      },
+      "case2": {
+        "title": "VOPI - Laravel",
+        "description": "Development of a subscription billing system for the VOPI web application using Laravel."
+      },
+      "case3": {
+        "title": "Otohear - React",
+        "description": "Development of a website for the Otohear clinic using React."
+      },
+      "case4": {
+        "title": "Legal System - Ruby on Rails",
+        "description": "Development of a legal case management system using Ruby on Rails."
+      },
+      "case5": {
+        "title": "A Favorita Landing Page - Laravel",
+        "description": "Creation of a landing page for A Favorita store using Laravel."
+      },
+      "case6": {
+        "title": "Pokedash - Vue",
+        "description": "Front-end technical challenge for API consumption using Vue."
+      }
+    },
+    "branding": {
+      "case1": {
+        "title": "Otohear - Brand Development",
+        "description": "Visual identity development for the Otohear clinic, including logo, color palette, and typography."
+      },
+      "case2": {
+        "title": "WRD - Logo Design",
+        "description": "Logo design for WRD. The project involved market research and creation of visual identity."
+      },
+      "case3": {
+        "title": "Bricoffee - Brand Development",
+        "description": "Brand and full visual identity development. Extensive market research to understand the concept and express the product’s essence."
+      },
+      "case4": {
+        "title": "Verde Oliva - Brand Development",
+        "description": "Brand and concept development for Verde Oliva. The project involved market research and visual identity creation."
+      },
+      "case5": {
+        "title": "Optsun - Brand Development",
+        "description": "Brand and concept development for Optsun. Extensive research to understand the product and express the brand’s essence."
+      },
+      "case6": {
+        "title": "Willian do Carmo - Brand Development",
+        "description": "Visual identity development for personal trainer Willian do Carmo. The project involved market research and identity creation."
+      },
+      "case7": {
+        "title": "Convicção Moda Infantil - Brand Development",
+        "description": "Visual identity development for Convicção Moda Infantil. The project involved market research and identity creation."
+      },
+      "case8": {
+        "title": "Santropez - Brand Development",
+        "description": "Visual identity development for Santropez. The project involved market research and identity creation."
+      },
+      "case9": {
+        "title": "Carlos Eduardo Nutritionist - Brand Development",
+        "description": "Visual identity development for nutritionist Carlos Eduardo. The project involved market research and identity creation."
+      },
+      "case10": {
+        "title": "Divinas - Rebranding",
+        "description": "Rebranding of the Divinas brand. The project involved market research and development of a new visual identity."
+      },
+      "case11": {
+        "title": "Eduardo Sturmer Personal - Brand Development",
+        "description": "Visual identity development for personal trainer Eduardo Sturmer. The project involved market research and identity creation."
+      },
+      "case12": {
+        "title": "LCF Consultoria - Brand Development",
+        "description": "Visual identity development for LCF Consultoria. The project involved market research and identity creation."
+      },
+      "case13": {
+        "title": "Mercosul Energia Solar - Rebranding",
+        "description": "Rebranding of Mercosul Energia Solar. The project involved market research and development of a new visual identity."
       }
     }
   }
