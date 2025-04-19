@@ -33,7 +33,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
               <h4 className="mobile-info__title">{t('portfolio.code.case1.title')}</h4>
-              <p className="mobile-info__description">{t('portfolio.branding.case1.description')}</p>
+              <p className="mobile-info__description">{t('portfolio.code.case1.description')}</p>
               <a href="#" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
@@ -46,7 +46,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
             <h4 className="mobile-info__title">{t('portfolio.code.case2.title')}</h4>
-            <p className="mobile-info__description">{t('portfolio.branding.case3.description')}</p>
+            <p className="mobile-info__description">{t('portfolio.code.case2.description')}</p>
               <a href="https://vopi.com.br/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
@@ -59,7 +59,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
             <h4 className="mobile-info__title">{t('portfolio.code.case3.title')}</h4>
-            <p className="mobile-info__description">{t('portfolio.branding.case3.description')}</p>
+            <p className="mobile-info__description">{t('portfolio.code.case3.description')}</p>
               <a href="https://otohear.com.br/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
@@ -72,7 +72,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
             <h4 className="mobile-info__title">{t('portfolio.code.case4.title')}</h4>
-            <p className="mobile-info__description">{t('portfolio.branding.case4.description')}</p>
+            <p className="mobile-info__description">{t('portfolio.code.case4.description')}</p>
               <a href="#" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
             <h4 className="mobile-info__title">{t('portfolio.code.case5.title')}</h4>
-            <p className="mobile-info__description">{t('portfolio.branding.case5.description')}</p>
+            <p className="mobile-info__description">{t('portfolio.code.case5.description')}</p>
               <a href="https://github.com/raposojoaopaulo/afavoritadu12"  target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
@@ -98,7 +98,7 @@ function CodePortfolio() {
             </div>
             <div className="mobile-info">
             <h4 className="mobile-info__title">{t('portfolio.code.case6.title')}</h4>
-            <p className="mobile-info__description">{t('portfolio.branding.case6.description')}</p>
+            <p className="mobile-info__description">{t('portfolio.code.case6.description')}</p>
               <a href="https://funny-sawine-1798f0.netlify.app/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
