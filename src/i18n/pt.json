@@ -60,7 +60,7 @@
   },
   "contact": {
     "title": "Contato",
-    "text": "Se quiser conversar, o café tá quase pronto. Use o formulário abaixo ou envie um e-mail direto para: <br>contato@raposojoaopaulo.com",
+    "text": "Se quiser conversar, o café tá quase pronto. Use o formulário abaixo ou envie um e-mail direto para: <br><b>contato@raposojoaopaulo.com</b>",
     "name": "Nome",
     "email": "E-mail",
     "phone": "Telefone",
@@ -86,6 +86,8 @@
     "subtitle1": "<span>Código</span> & Design",
     "subtitle2": "Código & <span>Design</span>",
     "buttonCases": "Conheça",
+    "see-more1": "Veja mais no Github",
+    "see-more2": "Veja mais no Behance",
     "code": {
       "case1": {
         "title": "Landing Page Otohear - Laravel",

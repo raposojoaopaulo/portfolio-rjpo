@@ -4,6 +4,7 @@ import '../styles/pages/_Portfolio.scss';
 import '../styles/components/_Carousel.scss';
 import Header from '../components/Header';
 import profilePortifolio from '../assets/portfolio/perfil_portfolio.webp';
+import { FaGithub, FaBehance } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
@@ -32,6 +33,10 @@ const Portfolio = () => {
           />
           <h3 className="portfolio__content-subtitle animate" dangerouslySetInnerHTML={{ __html: t('portfolio.subtitle1') }} />
           <CodePortfolio />
+          <div className="see-more end animate">
+            <p>{t('portfolio.see-more1')}</p>
+            <a href="https://github.com/raposojoaopaulo" target="_blank" rel="noopener noreferrer" className="see-more__btn">Acessar <span><FaGithub /></span></a>
+          </div>
           <motion.hr
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
@@ -41,6 +46,10 @@ const Portfolio = () => {
           />
           <h3 className="portfolio__content-subtitle animate" dangerouslySetInnerHTML={{ __html: t('portfolio.subtitle2') }} />
           <BrandingPortfolio />
+          <div className="see-more animate">
+          <p>{t('portfolio.see-more2')}</p>
+            <a href="https://behance.net/raposojoaop" target="_blank" rel="noopener noreferrer" className="see-more__btn">Acessar <span><FaBehance /></span></a>
+          </div>
           <motion.hr
             initial={{ scaleX: 0 }}
             animate={{ scaleX: 1 }}
