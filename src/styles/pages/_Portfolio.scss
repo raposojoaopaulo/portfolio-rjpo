@@ -97,15 +97,61 @@
       }
     }
 
-    // .cases {
-    //   display: flex;
-    //   flex-direction: row;
-    //   padding: 4rem 0;
-    //   margin-left: 3rem;
+    .see-more {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: start;
+      padding-right: 1rem;
+      margin-bottom: 2rem;
 
-    //   &__item {}
-    // }
-    
+      &.end {
+        align-items: end;
+      }
+
+      p {
+        font-family: 'League Spartan', sans-serif;
+        color: #fff;
+        font-size: 2.2vh;
+        line-height: 1.5;
+        margin-top: 1rem;
+      }
+
+      &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2vh;
+        text-transform: uppercase;
+        text-align: center;
+        max-width: 200px;
+        color: #cecece;
+        background: transparent;
+        border: 2px solid #fff;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+        transition: 
+          color 0.3s ease, 
+          border-color 0.3s ease, 
+          background-color 0.3s ease,
+          transform 0.3s ease;
+        letter-spacing: 1px;
+      
+        &:hover {
+          color: $black;
+          background-color: #fff;
+          border-color: $slate;
+          transform: scale(1.03);
+        }
+
+        span {
+          font-size: 2.2vh;
+          line-height: 90%;
+        }
+      }
+    }
 
     .back-home-btn {
       font-family: 'Bebas Neue', sans-serif;
