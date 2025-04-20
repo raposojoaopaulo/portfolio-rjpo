@@ -20,8 +20,9 @@
   },
   "about": {
     "page-title": "Sobre mim",
-    "description": "Sou desenvolvedor full stack com foco em Laravel e Ruby on Rails. Gosto de resolver problemas reais com soluções bem estruturadas. Tenho uma abordagem sistêmica e prática: gosto de entender o funcionamento completo das coisas antes de construir. Isso me permite criar aplicações mais estáveis, com código claro, funcional e pensado para durar.",
-    "description-2": "Acredito que o desenvolvimento de software é uma arte e, como tal, deve ser feito com paixão e dedicação. Em todos os projetos, busco unir clareza técnica com uma visão de produto, entendendo as necessidades do cliente e do usuário final. Gosto de pensar além do código — no fluxo, na experiência e no impacto daquilo que estou construindo.",
+    "description": "Eu sou o João, desenvolvedor full stack que também tem uma longa trajetória com design. Antes de mergulhar de vez no código, trabalhei durante anos com criação visual — desenvolvendo marcas, layouts e materiais que precisavam ser bonitos, mas principalmente funcionais. Essa base me ensinou a importância da clareza, do propósito e da forma como as coisas se apresentam.",
+    "description-2": "Gosto de entender como tudo funciona, desmontar ideias e remontá-las com lógica. Pra mim, desenvolver vai além de programar: envolve escolhas — sobre fluxo, estrutura, experiência. Busco trabalhar com sistemas objetivos, úteis e organizados, tanto por dentro quanto por fora.",
+    "description-3": "Hoje trabalho com tecnologias como Laravel e Ruby on Rails, mas mais do que stack, me importo com a solução como um todo. Nem sempre é o caminho mais rápido, mas quase sempre é o mais sólido.",
     "page-subtitle": "Stacks & tecnologias",
     "page-subtitle2": "Experiências profissionais",
     "experiences": {
@@ -59,7 +60,7 @@
   },
   "contact": {
     "title": "Contato",
-    "text": "Tem uma ideia em mente? Me conte e vamos transformar seu projeto em realidade! Use o formulário abaixo ou envie um e-mail direto para: contato@raposojoaopaulo.com",
+    "text": "Se quiser conversar, o café tá quase pronto. Use o formulário abaixo ou envie um e-mail direto para: <br>contato@raposojoaopaulo.com",
     "name": "Nome",
     "email": "E-mail",
     "phone": "Telefone",
@@ -81,7 +82,7 @@
   },
   "portfolio": {
     "title": "Portfólio",
-    "text": "Acredito que design e código devem caminhar juntos para contar histórias. Neste portfólio, compartilho projetos que unem intuição, experiência e intenção — sempre com foco no que importa de verdade: <span>o impacto</span>.",
+    "text": "Código e design fazem parte do meu repertório. Às vezes, eles se cruzam. Outras vezes não — e tudo bem. O que me move é contar histórias incríveis, traduzir ideias em algo que comunique, que conecte e e que se torne uma experiência. Sempre com foco no que importa de verdade: <span>o impacto</span>.",
     "subtitle1": "<span>Código</span> & Design",
     "subtitle2": "Código & <span>Design</span>",
     "buttonCases": "Conheça",

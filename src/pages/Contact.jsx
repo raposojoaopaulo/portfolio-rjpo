@@ -114,7 +114,7 @@ const Contact = () => {
         </div>
         <div className="contact__content">
           <h1 className="page-title animate">{t('contact.title')}</h1>
-          <h2 className='contact__content-text animate'>{t('contact.text')}</h2>
+          <h2 className='contact__content-text animate' dangerouslySetInnerHTML={{ __html: t('contact.text') }} />
           {loading && (
             <div className="contact__content-message loading">
               <p>Enviando sua mensagem...</p>

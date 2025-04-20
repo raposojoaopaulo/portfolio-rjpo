@@ -62,6 +62,7 @@ const About = () => {
           <div className="description animate">
             <p>{ t('about.description') }</p>
             <p>{ t('about.description-2') }</p>
+            <p>{ t('about.description-3') }</p>
           </div>
           <motion.hr
             initial={{ scaleX: 0 }}

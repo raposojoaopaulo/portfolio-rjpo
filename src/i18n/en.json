@@ -20,8 +20,9 @@
   },
   "about": {
     "page-title": "About Me",
-    "description": "I'm a full stack developer focused on Laravel and Ruby on Rails. I enjoy solving real-world problems with well-structured solutions. My approach is both systemic and pragmatic: I like to understand how things work as a whole before building. This allows me to create more stable applications with clear, functional, and future-proof code.",
-    "description-2": "I believe software development is an art — and as such, it should be done with passion and dedication. In every project, I strive to combine technical clarity with a product mindset, understanding the needs of both the client and the end user. I like to think beyond the code — about the flow, the experience, and the impact of what I'm building.",
+    "description": "I'm João, a full stack developer with a strong background in design. Before diving fully into code, I spent years working with visual creation — building brands, layouts, and materials that needed to be not only visually appealing, but also functional. That experience taught me the importance of clarity, purpose, and how things are presented.",
+    "description-2": "I like to understand how everything works, break down ideas and rebuild them with logic. To me, development goes beyond writing code — it's about making decisions around flow, structure, and user experience. I aim to build systems that are clear, useful, and well-organized — both inside and out.",
+    "description-3": "Today I work with technologies like Laravel and Ruby on Rails, but more than the stack itself, I care about the solution as a whole. It's not always the fastest path, but it's almost always the most solid one.",
     "page-subtitle": "Stacks & Technologies",
     "page-subtitle2": "Professional Experience",
     "experiences": {
@@ -59,7 +60,7 @@
   },
   "contact": {
     "title": "Contact",
-    "text": "Have an idea in mind? Let’s bring your project to life! Use the form below or send a direct email to: contato@raposojoaopaulo.com",
+    "text": "If you feel like chatting, the coffee’s almost ready. Use the form below or send an email directly to: <br>contato@raposojoaopaulo.com",
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
@@ -81,7 +82,7 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "text": "I believe design and code should walk together to tell meaningful stories. In this portfolio, I share projects that unite intuition, experience, and intention — always focused on what truly matters: <span>impact</span>.",
+    "text": "Code and design are both part of my craft. Sometimes they come together. Other times, they don’t — and that’s okay. What drives me is the desire to tell meaningful stories, to translate ideas into something that communicates, connects, and becomes an experience. Always with a focus on what truly matters: <span>impact</span>.",
     "subtitle1": "<span>Code</span> & Design",
     "subtitle2": "Code & <span>Design</span>",
     "buttonCases": "Explore",
