@@ -31,11 +31,12 @@ const Portfolio = () => {
             style={{ transformOrigin: 'left' }}
             viewport={{ once: true, amount: 0.2 }}
           />
-          <h3 className="portfolio__content-subtitle animate" dangerouslySetInnerHTML={{ __html: t('portfolio.subtitle1') }} />
+          <h3 className="portfolio__content-subtitle animate">{t('portfolio.subtitle1')}</h3>
           <CodePortfolio />
+          <h3 className="portfolio__content-subtitle animate">{t('portfolio.subtitle3')}</h3>
           <div className="see-more end animate">
             <p>{t('portfolio.see-more1')}</p>
-            <a href="https://github.com/raposojoaopaulo" target="_blank" rel="noopener noreferrer" className="see-more__btn">Acessar <span><FaGithub /></span></a>
+            <a href="https://github.com/raposojoaopaulo" target="_blank" rel="noopener noreferrer" className="see-more__btn">{ t('portfolio.externalButton') } <span><FaGithub /></span></a>
           </div>
           <motion.hr
             initial={{ scaleX: 0 }}
@@ -48,7 +49,7 @@ const Portfolio = () => {
           <BrandingPortfolio />
           <div className="see-more animate">
           <p>{t('portfolio.see-more2')}</p>
-            <a href="https://behance.net/raposojoaop" target="_blank" rel="noopener noreferrer" className="see-more__btn">Acessar <span><FaBehance /></span></a>
+            <a href="https://behance.net/raposojoaop" target="_blank" rel="noopener noreferrer" className="see-more__btn">{ t('portfolio.externalButton') } <span><FaBehance /></span></a>
           </div>
           <motion.hr
             initial={{ scaleX: 0 }}

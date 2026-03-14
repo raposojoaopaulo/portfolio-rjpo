@@ -21,7 +21,7 @@
   "about": {
     "page-title": "Sobre mim",
     "description": "Eu sou o João, desenvolvedor full stack que tem uma longa trajetória com design. Foi entre formas, cores e composições que aprendi a observar, testar, construir e reconstruir. Com o tempo, descobri que programar não é tão diferente assim: envolve escolhas, ritmo, estrutura, intenção.",
-    "description-2": "Gosto de entender como tudo funciona, desmontar ideias e remontá-las com lógica. Pra mim, desenvolver vai além de programar: envolve escolhas — sobre fluxo, estrutura, experiência. Busco trabalhar com sistemas objetivos, úteis e organizados, tanto por dentro quanto por fora.",
+    "description-2": "Gosto de entender como tudo funciona, desmontar ideias e remontá-las com lógica. Pra mim, desenvolver vai além de programar: envolve escolhas, fluxo, estrutura, experiência. Busco trabalhar com sistemas objetivos, úteis e organizados, tanto por dentro quanto por fora.",
     "description-3": "Hoje trabalho com tecnologias como Laravel e Ruby on Rails, mas além da stack, me importo com a solução como um todo. Nem sempre é o caminho mais rápido, mas quase sempre é o mais sólido.",
     "page-subtitle": "Stacks & tecnologias",
     "page-subtitle2": "Experiências profissionais",
@@ -82,10 +82,12 @@
   },
   "portfolio": {
     "title": "Portfólio",
-    "text": "Código e design fazem parte do meu repertório. Às vezes, eles se cruzam. Outras vezes não — e tudo bem. O que me move é contar histórias incríveis, traduzir ideias em algo que comunique, que conecte e e que se torne uma experiência. Sempre com foco no que importa de verdade: <span>o impacto</span>.",
-    "subtitle1": "<span>Código</span> & Design",
-    "subtitle2": "Código & <span>Design</span>",
+    "text": "Código e design fazem parte do meu repertório. Às vezes, eles se cruzam. Outras vezes não e tudo bem. O que me move é contar histórias incríveis, traduzir ideias em algo que comunique, que conecte e e que se torne uma experiência. Sempre com foco no que importa de verdade: <span>o impacto</span>.",
+    "subtitle1": "<CÓDIGO>",
+    "subtitle2": "⧉ Design",
+    "subtitle3": "</CÓDIGO>",
     "buttonCases": "Conheça",
+    "externalButton": "Acessar",
     "see-more1": "Veja mais no Github",
     "see-more2": "Veja mais no Behance",
     "code": {
@@ -112,6 +114,18 @@
       "case6": {
         "title": "Pokedash - Vue",
         "description": "Desafio técnico de front-end para consumo de API, utilizando Vue."
+      },
+      "case7": {
+        "title": "Otohear - Laravel",
+        "description": "Desenvolvimento do novo website da clínica Otohear, utilizando Laravel."
+      },
+      "case8": {
+        "title": "Will Carmo Personal - Laravel",
+        "description": "Desenvolvimento de landing page para o personal trainer Willian do Carmo, utilizando Laravel."
+      },
+      "case9": {
+        "title": "Naha Tattoo - React",
+        "description": "Desenvolvimento de landing page para a tatuadora Naha, utilizando React com backend em Laravel."
       }
     },
     "branding": {
@@ -166,6 +180,10 @@
       "case13": {
         "title": "Mercosul Energia Solar - Rebranding",
         "description": "Rebranding da marca Mercosul Energia Solar. O projeto envolveu pesquisa de mercado e criação de nova identidade visual."
+      },
+      "case14": {
+        "title": "Tres Bussiness & Tech - Desenvolvimento de Marca",
+        "description": "Desenvolvimento de logotipo para a marca Tres Bussiness & Tech"
       }
     }
   }

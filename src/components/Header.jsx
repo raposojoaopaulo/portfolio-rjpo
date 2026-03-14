@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/components/_header.scss';
 import menuIcon from '../assets/header/menu_icon_open.svg';
 import closeIcon from '../assets/header/menu_icon_close.svg';
-import { FaInstagram, FaGithub, FaLinkedinIn, FaBehance } from 'react-icons/fa';
+import { FaInstagram, FaGithub, FaLinkedinIn, FaBehance, FaFileAlt } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
 export default function Header({ theme = 'light' }) {
@@ -61,6 +61,7 @@ export default function Header({ theme = 'light' }) {
         </nav>
 
         <div className="header__social">
+          <a href="https://raposojoaopaulo.com/pdf/CV_JoaoPauloRaposo.pdf" target="_blank" rel="noopener noreferrer"><FaFileAlt /></a>
           <a href="https://www.linkedin.com/in/raposojoaopaulo/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
           <a href="https://github.com/raposojoaopaulo" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="https://behance.net/raposojoaop" target="_blank" rel="noopener noreferrer"><FaBehance /></a>

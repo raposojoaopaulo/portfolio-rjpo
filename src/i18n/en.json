@@ -83,9 +83,11 @@
   "portfolio": {
     "title": "Portfolio",
     "text": "Code and design are both part of my craft. Sometimes they come together. Other times, they don’t — and that’s okay. What drives me is the desire to tell meaningful stories, to translate ideas into something that communicates, connects, and becomes an experience. Always with a focus on what truly matters: <span>impact</span>.",
-    "subtitle1": "<span>Code</span> & Design",
-    "subtitle2": "Code & <span>Design</span>",
+    "subtitle1": "<Code>",
+    "subtitle2": "⧉ Design",
+    "subtitle3": "</Code>",
     "buttonCases": "Explore",
+    "externalButton": "Acess",
     "see-more1": "See more on Github",
     "see-more2": "See more on Behance",
     "code": {
@@ -112,6 +114,18 @@
       "case6": {
         "title": "Pokedash - Vue",
         "description": "Front-end technical challenge for API consumption using Vue."
+      },
+      "case7": {
+        "title": "Otohear - Laravel",
+        "description": "Development of the new Otohear clinic website using Laravel."
+      },
+      "case8": {
+        "title": "Will Carmo Personal - Laravel",
+        "description": "Development of a landing page for Will Carmo Personal store using Laravel."
+      },
+      "case9": {
+        "title": "Naha Tattoo - React",
+        "description": "Landing page development for the tattoo artist Naha, using React with a Laravel backend."
       }
     },
     "branding": {
@@ -166,6 +180,10 @@
       "case13": {
         "title": "Mercosul Energia Solar - Rebranding",
         "description": "Rebranding of Mercosul Energia Solar. The project involved market research and development of a new visual identity."
+      },
+      "case14": {
+        "title": "Tres Bussiness & Tech - Brand Development",
+        "description": "Visual identity development for Tres Bussiness & Tech."
       }
     }
   }

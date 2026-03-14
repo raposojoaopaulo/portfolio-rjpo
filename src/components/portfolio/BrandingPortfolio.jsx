@@ -16,6 +16,7 @@ import Divinas from '../../assets/portfolio/branding/divinas.webp';
 import Stur from '../../assets/portfolio/branding/stur.webp';
 import Lcf from '../../assets/portfolio/branding/lcf.webp';
 import Mercosul from '../../assets/portfolio/branding/mercosul.webp';
+import Tres from '../../assets/portfolio/branding/tres.webp';
 
 import PreviousButton from '../../assets/portfolio/previous.svg';
 import NextButton from '../../assets/portfolio/next.svg';
@@ -44,6 +45,19 @@ function BrandingPortfolio() {
                 </div>
               </div>
               <div className="embla__slide">
+                <img src={VerdeOliva} alt={t('portfolio.branding.case4.title')} />
+                <div className="overlay">
+                  <h4 className="overlay__title">{t('portfolio.branding.case4.title')}</h4>
+                  <p className="overlay__description">{t('portfolio.branding.case4.description')}</p>
+                  <a href="https://www.behance.net/gallery/157050405/Manual-de-Marca-Verde-Oliva" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+                </div>
+                <div className="mobile-info">
+                  <h4 className="mobile-info__title">{t('portfolio.branding.case4.title')}</h4>
+                  <p className="mobile-info__description">{t('portfolio.branding.case4.description')}</p>
+                  <a href="https://www.behance.net/gallery/157050405/Manual-de-Marca-Verde-Oliva" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
+                </div>
+              </div>
+              <div className="embla__slide">
                 <img src={Wrd} alt={t('portfolio.branding.case2.title')} />
                 <div className="overlay">
                   <h4 className="overlay__title">{t('portfolio.branding.case2.title')}</h4>
@@ -57,6 +71,19 @@ function BrandingPortfolio() {
                 </div>
               </div>
               <div className="embla__slide">
+                <img src={Tres} alt={t('portfolio.branding.case14.title')} />
+                <div className="overlay">
+                  <h4 className="overlay__title">{t('portfolio.branding.case14.title')}</h4>
+                  <p className="overlay__description">{t('portfolio.branding.case14.description')}</p>
+                  <a href="https://www.behance.net/gallery/245802253/Tres-Bussiness-Tech" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+                </div>
+                <div className="mobile-info">
+                  <h4 className="mobile-info__title">{t('portfolio.branding.case14.title')}</h4>
+                  <p className="mobile-info__description">{t('portfolio.branding.case14.description')}</p>
+                  <a href="https://www.behance.net/gallery/245802253/Tres-Bussiness-Tech" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
+                </div>
+              </div>
+              <div className="embla__slide">
                 <img src={Bricoffee} alt={t('portfolio.branding.case3.title')} />
                 <div className="overlay">
                   <h4 className="overlay__title">{t('portfolio.branding.case3.title')}</h4>
@@ -67,19 +94,6 @@ function BrandingPortfolio() {
                   <h4 className="mobile-info__title">{t('portfolio.branding.case3.title')}</h4>
                   <p className="mobile-info__description">{t('portfolio.branding.case3.description')}</p>
                   <a href="https://www.behance.net/gallery/134365233/Identidade-Visual-Bricoffee" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
-                </div>
-              </div>
-              <div className="embla__slide">
-                <img src={VerdeOliva} alt={t('portfolio.branding.case4.title')} />
-                <div className="overlay">
-                  <h4 className="overlay__title">{t('portfolio.branding.case4.title')}</h4>
-                  <p className="overlay__description">{t('portfolio.branding.case4.description')}</p>
-                  <a href="https://www.behance.net/gallery/157050405/Manual-de-Marca-Verde-Oliva" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
-                </div>
-                <div className="mobile-info">
-                  <h4 className="mobile-info__title">{t('portfolio.branding.case4.title')}</h4>
-                  <p className="mobile-info__description">{t('portfolio.branding.case4.description')}</p>
-                  <a href="https://www.behance.net/gallery/157050405/Manual-de-Marca-Verde-Oliva" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
                 </div>
               </div>
               <div className="embla__slide">

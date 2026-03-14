@@ -6,12 +6,15 @@ import { useTranslation } from 'react-i18next';
 import PreviousButton from '../../assets/portfolio/previous.svg';
 import NextButton from '../../assets/portfolio/next.svg';
 
+import OtohearNewSite from '../../assets/portfolio/code/otohear_new_site.webp';
 import OtohearLp from '../../assets/portfolio/code/otohear_lp.webp';
 import VOPI from '../../assets/portfolio/code/vopi.webp';
 import OtohearSite from '../../assets/portfolio/code/otohear_site.webp';
 import System from '../../assets/portfolio/code/system.webp';
 import Afavorita from '../../assets/portfolio/code/lp_favorita.webp';
 import Pokedash from '../../assets/portfolio/code/pokedash.webp';
+import WillLp from '../../assets/portfolio/code/willian_lp.webp';
+import NahaLp from '../../assets/portfolio/code/naha_lp.webp';
 
 function CodePortfolio() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false, slidesToScroll: 1 }); 
@@ -25,16 +28,55 @@ function CodePortfolio() {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           <div className="embla__slide">
+            <img src={NahaLp} alt={t('portfolio.code.case9.title')} />
+            <div className="overlay">
+            <h4 className="overlay__title">{t('portfolio.code.case9.title')}</h4>
+            <p className="overlay__description">{t('portfolio.code.case7.description')}</p>
+              <a href="https://nahatattoo.com.br/" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+            </div>
+            <div className="mobile-info">
+              <h4 className="mobile-info__title">{t('portfolio.code.case9.title')}</h4>
+              <p className="mobile-info__description">{t('portfolio.code.case7.description')}</p>
+              <a href="https://nahatattoo.com.br/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img src={OtohearNewSite} alt={t('portfolio.code.case7.title')} />
+            <div className="overlay">
+            <h4 className="overlay__title">{t('portfolio.code.case7.title')}</h4>
+            <p className="overlay__description">{t('portfolio.code.case7.description')}</p>
+              <a href="https://otohear.com.br/" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+            </div>
+            <div className="mobile-info">
+              <h4 className="mobile-info__title">{t('portfolio.code.case7.title')}</h4>
+              <p className="mobile-info__description">{t('portfolio.code.case7.description')}</p>
+              <a href="https://otohear.com.br/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
+            </div>
+          </div>
+          <div className="embla__slide">
+            <img src={WillLp} alt={t('portfolio.code.case8.title')} />
+            <div className="overlay">
+            <h4 className="overlay__title">{t('portfolio.code.case8.title')}</h4>
+            <p className="overlay__description">{t('portfolio.code.case8.description')}</p>
+              <a href="https://willcarmopersonal.com.br/" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+            </div>
+            <div className="mobile-info">
+              <h4 className="mobile-info__title">{t('portfolio.code.case8.title')}</h4>
+              <p className="mobile-info__description">{t('portfolio.code.case8.description')}</p>
+              <a href="https://willcarmopersonal.com.br/" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
+            </div>
+          </div>
+          <div className="embla__slide">
             <img src={OtohearLp} alt={t('portfolio.code.case1.title')} />
             <div className="overlay">
             <h4 className="overlay__title">{t('portfolio.code.case1.title')}</h4>
             <p className="overlay__description">{t('portfolio.code.case1.description')}</p>
-              <a href="#" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
+              <a href="https://otohear.com.br/aparelhos-auditivos" target="_blank" className="overlay__caseBtn">{t('portfolio.buttonCases')}</a>
             </div>
             <div className="mobile-info">
               <h4 className="mobile-info__title">{t('portfolio.code.case1.title')}</h4>
               <p className="mobile-info__description">{t('portfolio.code.case1.description')}</p>
-              <a href="#" className="btn">{t('portfolio.buttonCases')}</a>
+              <a href="https://otohear.com.br/aparelhos-auditivos" target="_blank" className="btn">{t('portfolio.buttonCases')}</a>
             </div>
           </div>
           <div className="embla__slide">
