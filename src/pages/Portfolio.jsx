@@ -1,5 +1,3 @@
-// import React from 'react';
-import { React } from 'react';
 import '../styles/pages/_Portfolio.scss';
 import '../styles/components/_Carousel.scss';
 import Header from '../components/Header';

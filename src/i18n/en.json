@@ -126,6 +126,10 @@
       "case9": {
         "title": "Naha Tattoo - React",
         "description": "Landing page development for the tattoo artist Naha, using React with a Laravel backend."
+      },
+      "case10": {
+        "title": "João Chesca - React",
+        "description": "Link aggregator for Psychologist João Chesca, in React."
       }
     },
     "branding": {
