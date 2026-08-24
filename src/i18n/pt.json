@@ -190,5 +190,125 @@
         "description": "Desenvolvimento de logotipo para a marca Tres Bussiness & Tech"
       }
     }
+  },
+  "briefing": {
+    "title": "Briefing de Logotipo",
+    "intro": "O Briefing é ideal para eu entender bem o projeto, conhecer a sua empresa e principalmente desenvolver uma marca forte e de grande valor.",
+    "note": "Não é necessário responder todas as perguntas. Mas quanto mais: melhor.",
+    "contact-section-title": "Seus dados",
+    "name": "Nome",
+    "email": "E-mail",
+    "placeholder-name": "Seu nome completo",
+    "placeholder-email": "email@email.com",
+    "section1-title": "Perguntas sobre a empresa",
+    "section2-title": "Perguntas sobre o projeto",
+    "q1": {
+      "label": "Como descreveria seus produtos e/ou serviços?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q2": {
+      "label": "Quais são os objetivos a longo prazo?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q3": {
+      "label": "Sua empresa possui um logo antigo? Se sim, qual é o motivo para a mudança?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q4": {
+      "label": "Quais são seus principais concorrentes?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q5": {
+      "label": "Como se difere dos concorrentes?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q6": {
+      "label": "Quem são seus clientes? Possui informação sobre classe social, região, idade e sexo?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q7": {
+      "label": "O público-alvo é de consumidores ou corporativo?",
+      "option-b2c": "Consumidor final",
+      "option-b2b": "Corporativo",
+      "option-both": "Ambos"
+    },
+    "q8": {
+      "label": "Qual o nome da marca?",
+      "placeholder": "Nome da marca"
+    },
+    "q9": {
+      "label": "Você tem um slogan ou tag line?",
+      "placeholder": "Seu slogan, se tiver",
+      "checkbox": "Gostaria que o slogan estivesse presente no logo"
+    },
+    "q10": {
+      "label": "Você tem alguma imagem em mente para o logo?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q11": {
+      "label": "Você possui alguma preferência por cores, ou quer que alguma cor da marca atual esteja presente na nova?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q12": {
+      "label": "Há alguma cor que você não quer?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q13": {
+      "label": "Que características, atributos e adjetivos você gostaria que seu logo passasse sobre seu negócio/empresa?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q14": {
+      "label": "Como você gostaria que fosse a personalidade da marca? Marque quantas quiser:",
+      "options": {
+        "seria": "Séria",
+        "conservadora": "Conservadora",
+        "corporativa": "Corporativa",
+        "dinamica": "Dinâmica",
+        "elegante": "Elegante",
+        "ecologica": "Ecológica",
+        "ludica": "Lúdica",
+        "moderna": "Moderna",
+        "amigavel": "Amigável",
+        "divertida": "Divertida",
+        "honesta": "Honesta",
+        "hightech": "Hightech",
+        "simples": "Simples",
+        "tradicional": "Tradicional"
+      },
+      "other-label": "Outra? Qual?",
+      "other-placeholder": "Outra característica"
+    },
+    "q16": {
+      "label": "Tem preferência no estilo da logo?",
+      "options": {
+        "icone-abstrato": "Ícone abstrato",
+        "icone-figurativo": "Ícone figurativo",
+        "escudo-emblema": "Escudo/emblema",
+        "apenas-texto": "Apenas texto (logotype)",
+        "icone-e-texto": "Combinação de ícone + texto",
+        "sem-preferencia": "Sem preferência"
+      }
+    },
+    "q17": {
+      "label": "Tem preferência por tipografia (ex.: letra de mão/script, negrito, etc.)? Possui alguma imagem ou ícone que quer que seja incorporado no logotipo?",
+      "placeholder": "Descreva aqui..."
+    },
+    "q18": {
+      "label": "Cite 3 logos que você gosta e quer que eu siga o mesmo estilo. Se puder, forneça referências (links, impressões)",
+      "placeholder": "Nomes das marcas, links de referência..."
+    },
+    "send": "Enviar briefing",
+    "sending": "Enviando seu briefing...",
+    "success": "✅ Briefing enviado com sucesso! Obrigado por dedicar esse tempo, em breve entro em contato.",
+    "error": "❌ Ocorreu um erro ao enviar o briefing. Tente novamente mais tarde ou envie por e-mail para contato@raposojoaopaulo.com.",
+    "back": "Voltar para o início",
+    "errors": {
+      "name": "O campo Nome é obrigatório.",
+      "email": "O campo E-mail é obrigatório.",
+      "email-invalid": "O campo E-mail deve ser um endereço de e-mail válido."
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados."
+    }
   }
 }

@@ -5,6 +5,7 @@ import NotFound from './pages/NotFound';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import BriefingLogotipo from './pages/BriefingLogotipo';
 
 const router = createBrowserRouter(
   [
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
     { path: "/sobre-mim",   element: <About /> },
     { path: "/portfolio",   element: <Portfolio /> },
     { path: "/contato",     element: <Contact /> },
+    { path: "/briefing-logotipo", element: <BriefingLogotipo /> },
     { path: "*",            element: <NotFound /> },
   ],
   {

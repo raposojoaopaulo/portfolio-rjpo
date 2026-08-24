@@ -1,0 +1,300 @@
+@use "../variables" as *;
+
+.briefing {
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+
+  &__content {
+    background: #ffffff;
+    width: 100%;
+    padding: 10rem 2rem 6rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      padding: 7rem 1.25rem 4rem;
+    }
+
+    .page-title {
+      color: $black;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 2vh;
+      font-size: 6rem;
+
+      @media (max-width: 768px) {
+        font-size: 3.5rem;
+      }
+    }
+
+    &-text,
+    &-note {
+      width: 100%;
+      max-width: 55rem;
+      text-align: center;
+    }
+
+    &-text {
+      font-family: "League Spartan", sans-serif;
+      color: $black;
+      font-size: 2.2vh;
+      font-weight: 500;
+    }
+
+    &-note {
+      font-family: "League Spartan", sans-serif;
+      color: $gray;
+      font-size: 1.6vh;
+      font-style: italic;
+      margin-top: 1rem;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+      width: 100%;
+      max-width: 55rem;
+
+      > button {
+        align-self: center;
+        max-width: 18rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $black;
+        background: transparent;
+        border: 2px solid $black;
+        padding: 0.75rem 2rem;
+        cursor: pointer;
+        transition:
+          color 0.3s ease,
+          border-color 0.3s ease,
+          background-color 0.3s ease,
+          transform 0.3s ease;
+        letter-spacing: 1px;
+        margin-top: 2rem;
+
+        &:hover {
+          color: #fff;
+          background-color: $black;
+          transform: scale(1.03);
+        }
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.4vh;
+        color: $black;
+
+        span {
+          margin-bottom: 0.6rem;
+        }
+
+        input,
+        textarea {
+          background: #f4f4f4;
+          border: 1px solid #d0d0d0;
+          border-radius: 6px;
+          padding: 1rem 1.2rem;
+          font-family: 'League Spartan', sans-serif;
+          font-size: 2vh;
+          color: $black;
+          resize: vertical;
+          transition: border-color 0.2s ease, background-color 0.2s ease;
+
+          &::placeholder {
+            color: #939393;
+          }
+
+          &:focus {
+            outline: none;
+            border-color: $slate;
+            background: #fff;
+          }
+        }
+
+        input.input-error,
+        textarea.input-error {
+          border-color: #d43f3f !important;
+        }
+
+        .error-text {
+          color: #d43f3f;
+          font-size: 1.4vh;
+          margin-top: 0.4rem;
+          font-family: 'League Spartan', sans-serif;
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+
+  &__fieldset {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    padding: 2.5rem 0 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    legend {
+      width: 100%;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.6vh;
+      color: $black;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  }
+
+  &__fieldset--questions {
+    label > span:first-child,
+    .briefing__radio-group > span:first-child,
+    .briefing__checkbox-group > span:first-child {
+      font-family: 'League Spartan', sans-serif;
+      font-weight: 600;
+      font-size: 1.9vh;
+    }
+  }
+
+  &__radio-group,
+  &__checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4vh;
+    color: $black;
+  }
+
+  &__radio,
+  &__checkbox {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: 'League Spartan', sans-serif !important;
+    font-size: 1.8vh !important;
+    color: $black !important;
+    cursor: pointer;
+
+    span {
+      margin: 0 !important;
+    }
+
+    input {
+      width: 1.4rem !important;
+      height: 1.4rem !important;
+      min-width: 1.4rem;
+      flex-shrink: 0;
+      accent-color: $slate;
+      background: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      cursor: pointer;
+    }
+  }
+
+  &__checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem 1.5rem;
+
+    @media (max-width: 480px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__content-message {
+    display: block;
+    width: 100%;
+    max-width: 55rem;
+    padding: 4rem 3rem;
+    margin-top: 2rem;
+    background-color: #f4f4f4;
+    color: $black;
+    border-left: 5px solid #00c851;
+    min-height: 120px;
+    text-align: center;
+
+    font-family: "League Spartan", sans-serif;
+    font-size: 2.4vh;
+
+    &.loading {
+      font-family: "League Spartan", sans-serif;
+      font-size: 2.2vh;
+      color: $gray;
+      background-color: #f4f4f4;
+      border-left: 5px solid #cccccc;
+    }
+
+    &.error {
+      border-color: #d43f3f;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      font-size: 2.2vh;
+    }
+
+    a.back-button__btn {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      border: 2px solid $black;
+      color: $black;
+      text-decoration: none;
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $black;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.briefing__footer {
+  width: 100%;
+  background: #f7f7f7;
+  border-top: 1px solid #e0e0e0;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: center;
+
+  img {
+    width: 56px;
+    height: auto;
+  }
+
+  p {
+    font-family: 'League Spartan', sans-serif;
+    color: $gray;
+    font-size: 1.5vh;
+    margin: 0;
+    max-width: 40rem;
+  }
+
+  &-rights {
+    font-size: 1.2vh !important;
+    color: #999 !important;
+  }
+}
