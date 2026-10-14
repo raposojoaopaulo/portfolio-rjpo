@@ -17,18 +17,17 @@ export default function Triangles() {
   const options = useMemo(() => ({
     fullScreen: { enable: false },
     particles: {
-      number:  { value: 32, density: { enable: true, area: 800 } },
+      number:  { value: 19, density: { enable: true, area: 900 } },
       color:   { value: "#cecece" },
       shape:   { type: "triangle" },
-      opacity: { value: 0.25 },
-      size:    { value: { min: 20, max: 60 } },
-      move:    { enable: true, speed: 2.5, outModes: { default: "bounce" } },
+      opacity: { value: 0.16 },
+      size:    { value: { min: 16, max: 46 } },
+      move:    { enable: true, speed: 1.4, outModes: { default: "bounce" } },
 
-      // rotação opcional
       rotate: {
         value: { min: 0, max: 360 },
         direction: "random",
-        animation: { enable: true, speed: 3, sync: false }
+        animation: { enable: true, speed: 2, sync: false }
       }
     },
     detectRetina: true,
@@ -37,25 +36,20 @@ export default function Triangles() {
       events: {
         onHover: {
           enable: true,
-          mode: ["repulse", "bubble", "parallax"] // ⬅️ inclui parallax
+          mode: ["parallax", "repulse"]
         }
       },
       modes: {
-        repulse: {
-          distance: 120,
-          speed: 1
-        },
-        bubble: {
-          distance: 140,
-          size: 80,
-          duration: 2,
-          opacity: 0.8,
-          color: { value: "#231F20" }
-        },
         parallax: {
-          enable: true,    // precisa estar true para usar o plugin
-          force: 60,       // intensidade do parallax
-          smooth: 20       // suavização do movimento
+          enable: true,
+          force: 35,
+          smooth: 30
+        },
+        repulse: {
+          distance: 110,
+          duration: 0.4,
+          factor: 60,
+          speed: 1
         }
       }
     }

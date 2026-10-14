@@ -1,0 +1,110 @@
+@use "../variables" as *;
+
+.jp-logo {
+  --pad: clamp(75px, 12.5vw, 275px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--pad);
+  margin: calc(var(--pad) * -1);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: pan-y;
+
+  @media (max-width: 1024px) {
+    --pad: clamp(50px, 8.75vw, 150px);
+  }
+
+  @media (max-width: 768px) {
+    --pad: 45px;
+  }
+}
+
+.jp-logo__stage {
+  position: relative;
+  z-index: 1;
+  width: clamp(350px, 72.5vw, 1225px);
+
+  @media (max-width: 768px) {
+    width: clamp(188px, 60vw, 325px);
+  }
+}
+
+.jp-logo__fragments {
+  position: absolute;
+  inset: 0;
+}
+
+.jp-logo__fragment {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+  pointer-events: none;
+
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
+.jp-logo__pulse {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  opacity: 0;
+  pointer-events: none;
+
+  path,
+  polygon {
+    fill: none;
+    stroke: $black;
+    stroke-width: 2.5;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    vector-effect: non-scaling-stroke;
+  }
+}
+
+.jp-logo__words {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jp-logo__fragment,
+  .jp-logo__word,
+  .jp-logo__pulse {
+    transition: none !important;
+  }
+}
+
+.jp-logo__word {
+  // A caixa precisa acompanhar o tamanho real do texto (não metade do
+  // container) — o clip-path de revelação é percentual sobre a própria
+  // caixa, então uma caixa maior que o texto (ex.: "CODE" alinhado dentro de
+  // uma metade larga do container) faz o corte diagonal cair sobre as letras
+  // em vez de escoar por elas.
+  flex: 0 0 auto;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: clamp(3.75rem, 10.5vw, 9rem);
+  line-height: 1;
+  color: $gray;
+  opacity: 0;
+  transform: translateY(14px);
+  clip-path: polygon(50% 100%, 50% 100%, 50% 100%, 50% 100%);
+  white-space: nowrap;
+}
